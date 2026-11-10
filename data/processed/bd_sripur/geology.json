@@ -1,0 +1,60 @@
+[
+  {
+    "id": "bd_sripur_geo_rim",
+    "name": "Crater rim crest (synthetic outline)",
+    "type": "crater_rim",
+    "polygon": [
+      [
+        -30.905797292435185,
+        259.2
+      ],
+      [
+        -30.90559407698386,
+        259.2736195132336
+      ],
+      [
+        -30.920824449982895,
+        259.13214807156606
+      ],
+      [
+        -30.940237147976717,
+        259.1394994596034
+      ],
+      [
+        -30.9380213757123,
+        259.26133963044595
+      ],
+      [
+        -30.9304579960744,
+        259.2
+      ]
+    ],
+    "description": "Approximate rim position from the published diameter.",
+    "synthetic": true
+  },
+  {
+    "id": "bd_sripur_geo_ejecta",
+    "name": "Ejecta zone (synthetic outline)",
+    "type": "ejecta",
+    "polygon": [
+      [
+        -30.841289274500802,
+        259.1276421118946
+      ],
+      [
+        -30.841289274500802,
+        259.2723578881054
+      ],
+      [
+        -30.89932415521272,
+        259.2723578881054
+      ],
+      [
+        -30.89932415521272,
+        259.1276421118946
+      ]
+    ],
+    "description": "Illustrative ejecta extent north of the rim.",
+    "synthetic": true
+  }
+]

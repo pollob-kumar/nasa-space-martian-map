@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bd_bogra_hz0",
+    "name": "Synthetic boulder field",
+    "lat": -24.20683157437458,
+    "lon": 331.1088795128073,
+    "radius_m": 200,
+    "reason": "Synthetic obstacle for route avoidance",
+    "source_url": "",
+    "synthetic": true
+  },
+  {
+    "id": "bd_bogra_hz1",
+    "name": "Synthetic loose-sand patch",
+    "lat": -24.23652383892486,
+    "lon": 331.1,
+    "radius_m": 180,
+    "reason": "Synthetic terrain hazard for route avoidance",
+    "source_url": "",
+    "synthetic": true
+  }
+]

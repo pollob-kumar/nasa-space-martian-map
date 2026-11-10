@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bd_teknaf_hz0",
+    "name": "Synthetic boulder field",
+    "lat": -35.995279886964816,
+    "lon": 214.31001065712093,
+    "radius_m": 200,
+    "reason": "Synthetic obstacle for route avoidance",
+    "source_url": "",
+    "synthetic": true
+  },
+  {
+    "id": "bd_teknaf_hz1",
+    "name": "Synthetic loose-sand patch",
+    "lat": -36.0249721515151,
+    "lon": 214.3,
+    "radius_m": 180,
+    "reason": "Synthetic terrain hazard for route avoidance",
+    "source_url": "",
+    "synthetic": true
+  }
+]

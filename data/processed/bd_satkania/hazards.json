@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bd_satkania_hz0",
+    "name": "Synthetic boulder field",
+    "lat": -32.285891701539164,
+    "lon": 338.20958026891776,
+    "radius_m": 200,
+    "reason": "Synthetic obstacle for route avoidance",
+    "source_url": "",
+    "synthetic": true
+  },
+  {
+    "id": "bd_satkania_hz1",
+    "name": "Synthetic loose-sand patch",
+    "lat": -32.31558396608945,
+    "lon": 338.2,
+    "radius_m": 180,
+    "reason": "Synthetic terrain hazard for route avoidance",
+    "source_url": "",
+    "synthetic": true
+  }
+]

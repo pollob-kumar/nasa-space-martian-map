@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bd_ruhea_hz0",
+    "name": "Synthetic boulder field",
+    "lat": -43.16636814303746,
+    "lon": 173.09110503113115,
+    "radius_m": 200,
+    "reason": "Synthetic obstacle for route avoidance",
+    "source_url": "",
+    "synthetic": true
+  },
+  {
+    "id": "bd_ruhea_hz1",
+    "name": "Synthetic loose-sand patch",
+    "lat": -43.196060407587744,
+    "lon": 173.08,
+    "radius_m": 180,
+    "reason": "Synthetic terrain hazard for route avoidance",
+    "source_url": "",
+    "synthetic": true
+  }
+]
