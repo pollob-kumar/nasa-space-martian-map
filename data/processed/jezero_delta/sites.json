@@ -1,0 +1,122 @@
+[
+  {
+    "id": "jezero_demo_base",
+    "name": "Synthetic Mission Base",
+    "lat": 18.423007032227016,
+    "lon": 77.38620899994325,
+    "goal": "Start / base",
+    "description": "Synthetic demonstration feature; not a real NASA science target. Flat landing-style terrain used as the start point.",
+    "geology": "Flat landing-style terrain used as the start point.",
+    "science_purpose": "Staging point for the excursion.",
+    "mission": "synthetic demonstration",
+    "observed": "synthetic",
+    "source_url": "",
+    "pov_images": [],
+    "chem_index": 0.24,
+    "chemistry": "Synthetic hydrated-mineral style index: low (0.24)"
+  },
+  {
+    "id": "jezero_demo_delta",
+    "name": "Synthetic Western Delta",
+    "lat": 18.466870604858116,
+    "lon": 77.43778473687198,
+    "goal": "Study layered delta deposits",
+    "description": "Synthetic demonstration feature; not a real NASA science target. Fan-shaped stack of layered sediments (synthetic stand-in for a river-delta deposit).",
+    "geology": "Fan-shaped stack of layered sediments (synthetic stand-in for a river-delta deposit).",
+    "science_purpose": "Check whether layers record standing water and whether they preserve chemical signs worth sampling.",
+    "mission": "synthetic demonstration",
+    "observed": "synthetic",
+    "source_url": "",
+    "pov_images": [
+      {
+        "url": "/api/regions/jezero_delta/media/jezero_demo_delta_0.png",
+        "rover": "synthetic rover",
+        "camera": "synthetic camera",
+        "sol": "synthetic",
+        "earth_date": "synthetic",
+        "credit": "RedNav-N399 synthetic demo",
+        "source_url": ""
+      }
+    ],
+    "chem_index": 0.79,
+    "chemistry": "Synthetic hydrated-mineral style index: high (0.79)"
+  },
+  {
+    "id": "jezero_demo_crater",
+    "name": "Synthetic Crater Rim",
+    "lat": 18.439034106842225,
+    "lon": 77.44934481583876,
+    "goal": "Compare impact-modified terrain",
+    "description": "Synthetic demonstration feature; not a real NASA science target. Raised, impact-modified rim with blocky material.",
+    "geology": "Raised, impact-modified rim with blocky material.",
+    "science_purpose": "Compare impact-altered rock with the delta layers; rim material can expose deeper strata.",
+    "mission": "synthetic demonstration",
+    "observed": "synthetic",
+    "source_url": "",
+    "pov_images": [
+      {
+        "url": "/api/regions/jezero_delta/media/jezero_demo_crater_0.png",
+        "rover": "synthetic rover",
+        "camera": "synthetic camera",
+        "sol": "synthetic",
+        "earth_date": "synthetic",
+        "credit": "RedNav-N399 synthetic demo",
+        "source_url": ""
+      }
+    ],
+    "chem_index": 0.26,
+    "chemistry": "Synthetic hydrated-mineral style index: low (0.26)"
+  },
+  {
+    "id": "jezero_demo_lakebed",
+    "name": "Synthetic Lakebed",
+    "lat": 18.475305907287172,
+    "lon": 77.39776907891004,
+    "goal": "Inspect ancient basin sediments",
+    "description": "Synthetic demonstration feature; not a real NASA science target. Smooth basin-floor sediments (synthetic).",
+    "geology": "Smooth basin-floor sediments (synthetic).",
+    "science_purpose": "Inspect fine-grained basin sediments as a baseline for the delta comparison.",
+    "mission": "synthetic demonstration",
+    "observed": "synthetic",
+    "source_url": "",
+    "pov_images": [
+      {
+        "url": "/api/regions/jezero_delta/media/jezero_demo_lakebed_0.png",
+        "rover": "synthetic rover",
+        "camera": "synthetic camera",
+        "sol": "synthetic",
+        "earth_date": "synthetic",
+        "credit": "RedNav-N399 synthetic demo",
+        "source_url": ""
+      }
+    ],
+    "chem_index": 0.6,
+    "chemistry": "Synthetic hydrated-mineral style index: moderate (0.60)"
+  },
+  {
+    "id": "jezero_demo_boxwork",
+    "name": "Synthetic Boxwork Ridge Network",
+    "lat": 18.42975527417026,
+    "lon": 77.41288610525122,
+    "goal": "Boxwork formation study (NASA-suggested optional goal)",
+    "description": "Synthetic demonstration feature; not a real NASA science target. Network of intersecting low ridges enclosing hollows, a 'boxwork' style pattern (synthetic).",
+    "geology": "Network of intersecting low ridges enclosing hollows, a 'boxwork' style pattern (synthetic).",
+    "science_purpose": "Boxwork-type ridges can mark where fluids hardened cracks in the rock; the team demo uses it to show how a science goal drives route choice.",
+    "mission": "synthetic demonstration",
+    "observed": "synthetic",
+    "source_url": "",
+    "pov_images": [
+      {
+        "url": "/api/regions/jezero_delta/media/jezero_demo_boxwork_0.png",
+        "rover": "synthetic rover",
+        "camera": "synthetic camera",
+        "sol": "synthetic",
+        "earth_date": "synthetic",
+        "credit": "RedNav-N399 synthetic demo",
+        "source_url": ""
+      }
+    ],
+    "chem_index": 0.7,
+    "chemistry": "Synthetic hydrated-mineral style index: high (0.70)"
+  }
+]

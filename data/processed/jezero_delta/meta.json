@@ -1,0 +1,73 @@
+{
+  "id": "jezero_delta",
+  "name": "Jezero Crater - Western Delta (SYNTHETIC DEMO)",
+  "role": "primary",
+  "synthetic": true,
+  "science_goal": "Synthetic end-to-end route-planning demonstration",
+  "center": {
+    "lat": 18.45,
+    "lon": 77.42
+  },
+  "coord_status": "synthetic",
+  "grid": {
+    "width": 100,
+    "height": 100,
+    "cell_m": 50.0,
+    "north_lat": 18.49217651214529,
+    "west_lon": 77.37553815782007
+  },
+  "layers": [
+    {
+      "kind": "topographic",
+      "name": "Synthetic elevation / slope",
+      "mission": "none",
+      "instrument": "numpy",
+      "product": "make_jezero_demo.py",
+      "resolution_m": 50.0,
+      "acquired": "synthetic",
+      "nature": "static",
+      "source_url": "",
+      "limitation": "Synthetic terrain. Not NASA data; slope is for UI and routing demonstration only."
+    },
+    {
+      "kind": "optical",
+      "name": "Synthetic surface imagery",
+      "mission": "none",
+      "instrument": "numpy/Pillow",
+      "product": "make_jezero_demo.py",
+      "resolution_m": 50.0,
+      "acquired": "synthetic",
+      "nature": "historical",
+      "source_url": "",
+      "limitation": "Synthetic colorized terrain. Not an orbital image."
+    },
+    {
+      "kind": "chemical",
+      "name": "Synthetic chemical index (hydrated-mineral style)",
+      "mission": "none",
+      "instrument": "numpy",
+      "product": "make_jezero_demo.py",
+      "resolution_m": 50.0,
+      "acquired": "synthetic",
+      "nature": "static",
+      "source_url": "",
+      "limitation": "Synthetic. A real chemical layer would come from orbital spectrometers (e.g. CRISM/TES) or rover instruments; not bundled. A grey patch marks cells with NO coverage."
+    },
+    {
+      "kind": "radiation",
+      "name": "Illustrative radiation / space-weather context",
+      "mission": "none",
+      "instrument": "config.py assumptions",
+      "product": "spaceweather.py",
+      "resolution_m": 0,
+      "acquired": "synthetic",
+      "nature": "predicted",
+      "source_url": "",
+      "limitation": "Placeholder dose rate and limit to demonstrate the Safety panel; not a NASA measurement."
+    }
+  ],
+  "warnings": [
+    "SYNTHETIC DATA - NOT NASA DATA. This Jezero demo enables the complete UI/API workflow.",
+    "All sites, hazards, POV images, elevations, and imagery are generated for demonstration."
+  ]
+}

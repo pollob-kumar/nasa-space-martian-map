@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bd_sripur_hz0",
+    "name": "Synthetic boulder field",
+    "lat": -30.892575913269475,
+    "lon": 259.20943798540503,
+    "radius_m": 200,
+    "reason": "Synthetic obstacle for route avoidance",
+    "source_url": "",
+    "synthetic": true
+  },
+  {
+    "id": "bd_sripur_hz1",
+    "name": "Synthetic loose-sand patch",
+    "lat": -30.922268177819756,
+    "lon": 259.2,
+    "radius_m": 180,
+    "reason": "Synthetic terrain hazard for route avoidance",
+    "source_url": "",
+    "synthetic": true
+  }
+]

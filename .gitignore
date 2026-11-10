@@ -5,9 +5,4 @@ __pycache__/
 .venv/
 .env
 .env.local
-data/raw/*
-!data/raw/.gitkeep
 # processed data can be big: commit only the small demo, rebuild real regions with run_all.py
-data/processed/*
-!data/processed/.gitkeep
-!data/processed/demo_synthetic/

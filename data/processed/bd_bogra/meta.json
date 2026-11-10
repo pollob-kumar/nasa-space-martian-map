@@ -1,0 +1,86 @@
+{
+  "id": "bd_bogra",
+  "name": "Bogra crater - north-rim window (Bangladesh name, SYNTHETIC)",
+  "role": "bangladesh",
+  "synthetic": true,
+  "science_goal": "Plan an excursion on the north rim of Bogra crater: ejecta, rim crest and inner wall",
+  "center": {
+    "lat": -24.22032805826107,
+    "lon": 331.1
+  },
+  "coord_status": "approx_needs_verify",
+  "bangladesh": {
+    "name": "Bogra",
+    "diameter_km": 21.3,
+    "approved": "1976",
+    "named_after": "Bogra, Bangladesh",
+    "gazetteer": "https://planetarynames.wr.usgs.gov/",
+    "crater_center": {
+      "lat": -24.4,
+      "lon": 331.1
+    }
+  },
+  "grid": {
+    "width": 100,
+    "height": 100,
+    "cell_m": 80.0,
+    "north_lat": -24.15284563882861,
+    "west_lon": 331.0260040599392
+  },
+  "layers": [
+    {
+      "kind": "topographic",
+      "name": "Synthetic rim elevation / slope",
+      "mission": "none",
+      "instrument": "numpy",
+      "product": "make_bangladesh_demo.py",
+      "resolution_m": 80.0,
+      "acquired": "synthetic",
+      "nature": "static",
+      "source_url": "",
+      "limitation": "Synthetic bowl + rim built from the published diameter. NOT measured terrain. A real global DEM (~200 m/px) is coarser than this demo grid and could not resolve walking-scale hazards."
+    },
+    {
+      "kind": "optical",
+      "name": "Synthetic surface imagery",
+      "mission": "none",
+      "instrument": "numpy/Pillow",
+      "product": "make_bangladesh_demo.py",
+      "resolution_m": 80.0,
+      "acquired": "synthetic",
+      "nature": "historical",
+      "source_url": "",
+      "limitation": "Synthetic colourised terrain. Not an orbital image."
+    },
+    {
+      "kind": "chemical",
+      "name": "Synthetic chemical index",
+      "mission": "none",
+      "instrument": "numpy",
+      "product": "make_bangladesh_demo.py",
+      "resolution_m": 80.0,
+      "acquired": "synthetic",
+      "nature": "static",
+      "source_url": "",
+      "limitation": "Synthetic. Grey patch = NO coverage."
+    },
+    {
+      "kind": "radiation",
+      "name": "Illustrative radiation / space-weather context",
+      "mission": "none",
+      "instrument": "config.py assumptions",
+      "product": "spaceweather.py",
+      "resolution_m": 0,
+      "acquired": "synthetic",
+      "nature": "predicted",
+      "source_url": "",
+      "limitation": "Placeholder; not a NASA measurement."
+    }
+  ],
+  "warnings": [
+    "Real crater name and size (Bogra, 21.3 km, approved 1976); the 8 km window terrain is SYNTHETIC - no walking-scale NASA data is used here.",
+    "No rover has visited this crater: rover photos are MISSING (no substitute is shown).",
+    "Coarse-data warning: published global elevation for this area is ~200 m/px, too coarse to judge boulders or small slopes.",
+    "Crater centre coordinates are approximate - verify in the USGS Gazetteer before presenting."
+  ]
+}

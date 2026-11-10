@@ -1,0 +1,32 @@
+[
+  {
+    "id": "jezero_demo_hazard_0",
+    "name": "Synthetic Boulder Field",
+    "lat": 18.444938818542568,
+    "lon": 77.41644305262561,
+    "radius_m": 150,
+    "reason": "Synthetic obstacle for route avoidance",
+    "source_url": "",
+    "synthetic": true
+  },
+  {
+    "id": "jezero_demo_hazard_1",
+    "name": "Synthetic Steep Scarp",
+    "lat": 18.457591772186152,
+    "lon": 77.42978160527959,
+    "radius_m": 120,
+    "reason": "Synthetic slope hazard for route avoidance",
+    "source_url": "",
+    "synthetic": true
+  },
+  {
+    "id": "jezero_demo_hazard_2",
+    "name": "Synthetic Sand Patch",
+    "lat": 18.433129395141886,
+    "lon": 77.43511702634117,
+    "radius_m": 150,
+    "reason": "Synthetic terrain hazard for route avoidance",
+    "source_url": "",
+    "synthetic": true
+  }
+]
